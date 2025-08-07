@@ -8,6 +8,7 @@ phases:
   pre_build:
     commands:
       - npm install
+      
   build:
     commands:
       - ng build -c production
